@@ -1,5 +1,5 @@
-# Ignore app folder
-/app/*
+# Ignore app folder and whatever content there is
+/app
 # Ignore system files
 .DS_Store
 Thumbs.db
