@@ -1,0 +1,33 @@
+# Ignore app folder
+/app/*
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and backups
+*.log
+*.bak
+*.swp
+
+# Ignore dependencies
+/node_modules
+/bower_components
+
+# Ignore build output
+/dist
+/build
+/out
+
+# Ignore environment variables
+.env
+.env.local
+.env.*.local
+.env.*.prod
+
+# Ignore IDE files
+.idea
+.vscode
+# ignore workspace.xml, which stores local history for Eclipse-based IDEs
+**/workspace.xml
+# ignore vscode workspace settings
+**/*.code-workspace
