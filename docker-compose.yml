@@ -11,7 +11,8 @@ services:
 #This section defines the services that will be created and managed by Docker Compose.
 
     mailhog:
-        image: 'mailhog/mailhog:latest'
+      # image: 'mailhog/mailhog:latest' original
+        image: 'cd2team/mailhog:latest' # replacement test for arm
         ports:
             - '17000:8025'
     #This service defines a mailhog container. The image property specifies the Docker image to use for the container. The ports property maps the container's port 8025 to the host's port 17000.
